@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0624%2Fr1350041_1296x729_16%2D9.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.teto{
+    display: flex;
+    background-color: rgb(6, 105, 92);
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+h3{
+    color: #fff;
+    padding: 8px;
+    margin: 5px;
+}
+
+.conteudo dialog input{
+    background-color: #000447;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+.conteudo dialog input:hover{
+    transform: scale(1.1);
+}
+.conteudo dialog {
+    font-family: Roboto, sans-serif;
+    width: 79%;
+    height: 75%;
+    margin: 7% auto;
+    padding: 25px 12px 0 12px ;
+    border: none;
+    border-radius: 10px;
+}
+dialog p{
+    font-size: 20px;
+}
+.imagem img{
+    display: flex;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+#imagem img{
+    font-family: Roboto, sans-serif;
+    width: 1080px;
+    height: 1080px;
+    border: none;
+    border-radius: 10px;
+}
+.container {
+    margin: 5% auto;
+    width: 50%;
+    background-color: rgb(6, 105, 92);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.titulo {
+    color: #fff;
+}
+
+.titulo h1 {
+    font-size: 30px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+
+.titulo h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.conteudo .botao input {
+    background-color: rgb(10, 201, 175);
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    outline: none;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    width: 50%;
+}
+.conteudo .botao input:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 700px){
+    .titulo h1 {
+        font-size: 14px;
+    }
+    .titulo h2 {
+        font-size: 14px;
+    }
+    .conteudo .botao input {
+        background-color: rgb(10, 201, 175);
+        font-size: 10px;
+        margin: 8px;
+        width: 75%;
+    }
+    .container {
+        margin: 42% auto;
+        width: 65%;
+        font-size: 16px;
+    }
+    .conteudo dialog {
+        margin: 25% auto;
+        width: 97%;
+        height: 63%;
+    }
+    dialog p{
+        font-size: 14px;
+    }
+    #imagem img{
+        width: 332px;
+        height: 315px;
+        justify-content: center ;
+    }
+}
